@@ -1,0 +1,119 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+form {
+
+    width: 300px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 150px;
+    box-shadow: 5px 5px 1px rgba(211, 211, 211, 0.19);
+    border: 1px solid rgba(211, 211, 211, 0.171);
+
+
+}
+
+input {
+
+    height: 25px;
+    border-radius: 2px;
+    padding-left: 5px;
+    color: rgb(47, 47, 47);
+    border: 1px solid lightgrey;
+}
+
+button {
+
+    width: 80px;
+    height: 30px;
+    border: none;
+    color: white;
+    background-color:#f72585;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+
+    background-color:  #b5179e;
+}
+
+#delete-btn{
+
+    width: 50px;
+    height: 20px;
+    margin-left: 10px;
+    font-size: 10px;
+    background-color: #7209b7;
+}
+
+#todo-container{
+
+    width: 600px;
+    min-height: 100px;
+    color:  rgb(47, 47, 47);
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: scroll;
+    border-radius: 10px;
+
+}
+
+
+#todo-box{
+
+    width: 500px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#checkbox{
+
+    width: 15px;
+    height: 15px;
+    border: 1px solid lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2px;
+    cursor: pointer;
+
+}
+
+#checkmark {
+
+    display: none;
+}
+
+#complete-message {
+
+
+    width: 70px;
+    font-size: 8px;
+}
